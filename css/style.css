@@ -1,0 +1,8 @@
+
+header {
+  position: absolute;
+  background-image: url("../img/shadow-header.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 144px;
+}
