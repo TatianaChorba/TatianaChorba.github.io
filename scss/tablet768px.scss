@@ -1,0 +1,367 @@
+@media all and (max-width: 768px) {
+    header {
+        .contact-info {
+            flex-direction: column;
+            align-items: start;
+        }
+
+        .contact-info li:first-child {
+            margin: 0;
+            padding-bottom: 3px;
+        }
+
+        .text-about-exploore {
+            font-size: 25px;
+        }
+        .nav-for-site {
+            font-size: 0.82rem;
+        }
+
+        .nav-for-site li a {
+            padding: 35px 15px 25px 5px;
+        }
+    }
+
+    .promo {
+        height: 630px;
+        .container {
+            padding: 200px 150px 10px;
+            }
+
+         .first-promo {
+            font-size: 40px;
+        }
+
+        .signature {
+            font-size: 20px;
+            letter-spacing: normal;
+        }
+
+    }
+
+    .find-hotel {
+        .form-find-hotel {
+            padding-top: 27px;
+        }
+
+        .form-shell {
+            display: block;
+            margin-top: 30px;
+        }
+
+        .second-column {
+            margin-top: 20px;
+        }
+    }
+
+.section-services {
+    height: 400px;
+}    
+
+.p-first-about {
+    font-size: 27px;
+    padding-top: 20px;
+} 
+
+.p-second-about {
+    font-size: 20px;
+}   
+    .list-section-services {
+        margin: 20px 15px;
+    }
+    .services-text p:first-child {
+        font-size: 15px;
+    }
+    .ul-first-services, .ul-second-services {
+        font-size: 10px;
+    }   
+    .section-about {
+        height: 410px;
+        .ul-about li { 
+        margin-top: 5px;
+        }
+    }
+
+   .section-about .part-with-text-about {
+        background-size: 100%;
+        padding: 15px 35px;
+        color: white;
+   }
+
+   .list-section-services .ul-first-services {
+        margin-right: 30px;
+   }
+
+   .list-section-services ul li::before { 
+        margin-right: 55px;
+   }
+   .section-budget-package {
+        height: 500px;
+   }
+
+   .title-budget {
+        font-size: 25px;
+   }
+
+   .text-budget {
+        font-size: 20px;
+   }
+    
+   .package {
+        padding-top: 10px;
+   }
+   
+   .low {
+        background-size: 20%;
+   }
+   
+   .mid {
+        background-size: 17%;
+   }
+
+   .hight {
+       background-size: 20%;
+   }
+
+   .package .budget-trip {
+        width: 200px;
+        height: 300px;
+   }
+
+   .budget-trip p {
+        padding-top: 70px;
+        padding-bottom: 5px;
+        font-size: 15px;
+   }
+    
+   .button-budget {
+        height: 40px;
+        font-size: 20px;
+   }
+
+   .package .budget-trip ul {
+        padding-left: 10px;
+   }
+
+   .budget-trip ul li {
+        padding-bottom: 15px;
+        font-size: 10px;
+   }
+    
+   .section-tour-status {
+        height: 500px;
+    }
+
+   .section-tour-status .with-clip-path {
+        margin: 20px 10px;
+        width: 250px;
+   }
+
+   .status-bar {
+        margin: 20px 0;
+        height: 70px;
+   }
+
+   .section-tour-status .title-budget {
+        padding-top: 35px;
+   }
+   .section-tour-status .status-plane {
+        padding-left: 0;
+        background-size: contain;
+   }
+
+   .status-plane::before {
+        margin-right: 0;
+   }
+
+   .section-tour-status .status-car {
+        padding-left: 20px;
+        background-size: contain;
+   }
+
+   .status-car::before {
+        margin-right: 1px;
+   }
+
+   .section-tour-status .status-hotel {
+        padding: 0;
+        background-size: contain;
+   }
+
+   .section-tour-status .tour-button-click {
+        margin: 5px 150px;
+   }
+
+   .tour-button-click {
+       font-size: 10px;
+       padding: 10px;
+   }
+   .section-tour-status .p-tour-status {
+        font-size: 0.85rem;
+        line-height: normal;
+   }
+
+   .section-best-deals {
+        height: 635px;
+   }
+
+   .wr-deals-left {
+     width: 200px;
+     height: 286px;
+ }
+
+     .section-best-deals .title-deals {
+          font-size: 15px;
+     }
+
+   .section-best-deals .deals-button-click {
+        font-size: 7px;
+        margin: 5px 70px;
+   }
+
+
+   .place-deals, .pay-deals {
+        font-size: 15px;
+   }
+
+   
+   .section-blog {
+        height: 450px;
+   }
+
+   .section-blog h3 {
+        padding-top: 10px;
+    }
+
+    .section-blog h4 {
+        font-size: 15px;
+    } 
+
+    .blog-button {
+         margin: 125px 30px 0;
+         padding: 7px;
+         font-size: 10px;
+     }
+   .section-blog .blog-block {
+        margin: 20px;
+   }
+   .blog-left, .blog-center, .blog-right {
+        width: 210px;
+        height: 300px;
+   }
+   .section-blog .blog-a {
+        margin: 125px 10px 0;
+   }
+   .blog-text {
+        padding-top: 20px;
+   }
+
+   .section-blog .place-deals {
+        font-size: 15px;
+   }
+   .section-blog .text-deals {
+        font-size: 10px;
+   }
+
+   .section-slide-show {
+        height: 460px;
+   }
+
+   .boreder-show {
+        height: 300px;
+        width: 350px;
+        margin-right: 50px;
+        margin-top: 18px;
+   }
+
+   .boreder-show h3 {
+        padding-top: 10px;
+    }
+    .boreder-show p {
+        font-size: 10px;
+    }
+    .price-show {
+        margin-top: 0; 
+    }
+    .boreder-show span {
+        font-size: 15px;
+        padding: 20px 5px 20px 50px;
+    }   
+    .section-slide-show .button-click {
+        padding: 21px 40px;
+        width: 0;
+        height: 0;
+        margin: 0;
+    }
+    
+    .section-reviews {
+        height: 297px;
+    }
+
+    .section-reviews h3 {
+        font-size: 25px;
+    }  
+    
+    .section-reviews h4 {
+        font-size: 15px;
+    }
+    
+    .rating {
+        margin: 10px 100px;
+    }
+    
+    .section-reviews .title-budget {
+        margin: 0;
+        padding-top: 15px;
+    }
+    .review-about {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .who-is {
+        padding-bottom: 18px;
+    }
+
+    .first-about-review {
+        margin: 0px 130px;
+    }
+
+    .name-review {
+        font-size: 15px;
+    }
+    
+    .section-footer {
+        height: 500px;
+        background-size: 100%;
+    }
+    
+    .section-footer .title-budget {
+        padding-top: 10px;
+    }
+    
+    .place-map {
+        height: 70px;
+    }
+   .section-footer .footer-contact-tel {
+        font-size: 15px;
+   }
+   .section-footer .footer-contact-mail {
+        font-size: 15px;
+   }
+   .section-footer .footer-contact-address {
+        font-size: 15px;
+   }
+
+   .footer-icons li {
+        width: 60px;
+        height: 60px;
+        margin: 10px;
+   }
+
+   .footer-down {
+        font-size: 17px;
+        padding: 10px 0;
+        line-height: 20px;
+   }  
+ }

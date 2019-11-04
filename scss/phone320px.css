@@ -1,0 +1,133 @@
+@media all and (max-width: 320px) {
+  header {
+    height: 95px;
+  }
+  .contact-info {
+    padding-left: 5px;
+  }
+  .social-media-icon li a img {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  .social-media-icon li {
+    padding-right: 2px;
+  }
+  .login-and-signup {
+    margin: 0;
+    font-size: 5px;
+  }
+  .login {
+    background-size: 7px;
+  }
+  .singup {
+    background-size: 7px;
+  }
+  .promo {
+    height: 240px;
+  }
+  .promo .container {
+    padding: 120px 15px 10px;
+  }
+  .signature {
+    margin-top: 3px;
+  }
+  .promo-text {
+    font-size: 10px;
+    padding: 5px;
+  }
+  .button-click {
+    font-size: 7px;
+    padding: 10px 40px;
+  }
+  .find-hotel .form-shell {
+    margin-top: 10px;
+  }
+  .section-about {
+    height: 240px;
+  }
+  .section-services {
+    height: 350px;
+  }
+  .list-section-services ul li::before {
+    margin-right: 25px;
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  .services-text {
+    margin-left: -4px;
+  }
+  .services-text p:first-child {
+    font-size: 10px;
+  }
+  .package .budget-trip {
+    width: 80px;
+    height: 190px;
+  }
+  .budget-trip p {
+    padding-top: 25px;
+    padding-bottom: 5px;
+    font-size: 8px;
+  }
+  .package .budget-trip ul {
+    padding-left: 1px;
+  }
+  .budget-trip ul li {
+    font-size: 8px;
+  }
+  .tour-status {
+    width: 100%;
+  }
+  .section-tour-status .p-tour-status {
+    font-size: 0.5rem;
+    line-height: normal;
+    padding: 0 15px;
+  }
+  .section-tour-status .tour-button-click {
+    margin: 5px 100px;
+  }
+  .status-bar div::before {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+    margin-right: 0;
+  }
+  .status-bar {
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+  }
+  .status-bar .status-plane {
+    padding-left: 27px;
+  }
+  .status-car {
+    left: 20%;
+  }
+  .status-bar div::before {
+    display: none;
+  }
+  .status-bar .status-car {
+    padding-left: 90px;
+  }
+  .deals-block {
+    margin: 5px;
+  }
+  .wr-deals-left:hover {
+    -webkit-box-shadow: 2px 2px 13px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 2px 13px 1px rgba(0, 0, 0, 0.75);
+    background: #fff;
+  }
+  .blog-button {
+    margin: 45px 20px 0;
+  }
+  .first-about-review {
+    margin: 0px 50px;
+    background-size: 20%;
+  }
+  .review-about, .name-review, .who-is {
+    font-size: 10px;
+    line-height: normal;
+    padding: 0;
+  }
+  .who-is {
+    padding-top: 5px;
+  }
+}
+/*# sourceMappingURL=phone320px.css.map */

@@ -1,0 +1,2539 @@
+@charset "UTF-8";
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+     ========================================================================== */
+/**
+   * Remove the margin in all browsers.
+   */
+body {
+  margin: 0;
+}
+
+/**
+   * Render the `main` element consistently in IE.
+   */
+/**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+/* Grouping content
+     ========================================================================== */
+/**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+     ========================================================================== */
+/**
+   * Remove the gray background on active links in IE 10.
+   */
+/**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+   * Add the correct font size in all browsers.
+   */
+small {
+  font-size: 80%;
+}
+
+/**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+     ========================================================================== */
+/**
+   * Remove the border on images inside links in IE 10.
+   */
+/* Forms
+     ========================================================================== */
+/**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+   * Remove the inner border and padding in Firefox.
+   */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+   * Restore the focus styles unset by the previous rule.
+   */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+   * Correct the padding in Firefox.
+   */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+legend {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+textarea {
+  overflow: auto;
+}
+
+/**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+[type="checkbox"],
+[type="radio"] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+     ========================================================================== */
+/*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+details {
+  display: block;
+}
+
+/*
+   * Add the correct display in all browsers.
+   */
+summary {
+  display: list-item;
+}
+
+/**
+   * Add the correct display in IE 10.
+   */
+[hidden] {
+  display: none;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local(Arial);
+  src: url("../fonts/montserrat/Montserrat-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Montserrat-black";
+  src: local(Arial);
+  src: url("../fonts/montserrat/Montserrat-Black.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Montserrat-medium";
+  src: local(Arial);
+  src: url("../fonts/montserrat/Montserrat-Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Montserrat-regular";
+  src: local(Arial);
+  src: url("../fonts/montserrat/Montserrat-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Lato-medium";
+  src: local(Arial);
+  src: url("../fonts/lato/Lato-Medium.ttf") format("opentype");
+}
+
+.container {
+  max-width: 1300px;
+  width: 100%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 auto;
+}
+
+input:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+header {
+  background-image: url("../img/shadow-header.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  position: absolute;
+  height: 145px;
+}
+
+header .container {
+  padding: 0 30px;
+}
+
+.over-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Montserrat";
+  font-size: 14px;
+  letter-spacing: 1px;
+  border-bottom: rgba(255, 255, 255, 0.5) solid 3px;
+  padding: 10px 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+a {
+  background-repeat: no-repeat;
+  text-decoration: none;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+p {
+  margin: 0;
+}
+
+.contact-info {
+  padding-left: 19px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-info li:first-child {
+  margin-right: 106px;
+  margin-left: 13px;
+}
+
+.contact-tel {
+  background-image: url("../img/contact-info/icon-phone.png");
+  padding-left: 22px;
+}
+
+.contact-mail {
+  background-image: url("../img/contact-info/icon-mail.png");
+  padding-left: 27px;
+}
+
+.media-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.social-media-icon {
+  margin: 0 30px 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.social-media-icon li {
+  padding-right: 20px;
+}
+
+.login-and-signup {
+  margin-right: 12px;
+}
+
+.login {
+  background-image: url("../img/login-and-signup/login.png");
+  padding-left: 29px;
+  padding-right: 28px;
+}
+
+.singup {
+  background-image: url("../img/login-and-signup/signup.png");
+  padding-left: 22px;
+}
+
+.under-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.logo {
+  font-family: 'Montserrat';
+  font-size: 15px;
+  margin-left: 10px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.text-under-title {
+  font-family: "Montserrat-medium";
+  font-size: 34px;
+}
+
+.font-yellow {
+  color: #ffdd00;
+  letter-spacing: -9px;
+}
+
+.tagline {
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  margin: 0;
+}
+
+.navigation ul {
+  font-family: "Montserrat-regular";
+  font-size: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  letter-spacing: 1.5px;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation li {
+  letter-spacing: 1.5px;
+}
+
+.navigation li a {
+  padding: 35px 20px 25px 25px;
+}
+
+.navigation a:hover {
+  border-bottom: 3px solid #ffdd00;
+}
+
+.promo {
+  background-image: url("../img/about/picture-about-black.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+  height: 830px;
+}
+
+.promo .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  color: #fff;
+  padding: 320px 250px 0 250px;
+  font-family: 'Montserrat-black';
+}
+
+.first-promo {
+  font-size: 70px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+.signature {
+  font-size: 40px;
+  letter-spacing: 12px;
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding-left: 26px;
+}
+
+.promo-text {
+  font-family: 'Lato-medium';
+  font-size: 20px;
+  padding: 40px 0 50px 0;
+}
+
+.button-click {
+  font-family: "Montserrat-medium";
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1.1px;
+  color: black;
+  display: -ms-flexbox;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 215px;
+  height: 57px;
+  background-color: #ffdd00;
+  border-radius: 6px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+
+.find-hotel {
+  background-image: url("../img/find-hotel/bg-find-hotel.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 335px;
+}
+
+.form-find-hotel {
+  padding-top: 77px;
+  overflow: hidden;
+}
+
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.form-shell {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  font-family: "Montserrat-medium";
+  font-size: 20px;
+  margin-top: 60px;
+}
+
+legend {
+  font-family: 'Montserrat-black';
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 35px;
+}
+
+.first-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.second-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.form-where {
+  margin-left: 25px;
+}
+
+.form-where input {
+  height: 35px;
+  width: 235px;
+}
+
+.form-check-in {
+  margin-left: 15px;
+}
+
+.form-check-in input {
+  height: 35px;
+  width: 200px;
+}
+
+.form-Check-out {
+  margin-left: 15px;
+}
+
+.form-Check-out input {
+  height: 35px;
+  width: 200px;
+}
+
+.adult {
+  margin-left: 20px;
+}
+
+.adult input {
+  height: 35px;
+  width: 130px;
+}
+
+.child {
+  margin-left: 15px;
+}
+
+.child input {
+  height: 35px;
+  width: 130px;
+}
+
+input {
+  margin-top: 15px;
+  border-radius: 5px;
+  text-indent: 15px;
+  font-size: 17px;
+}
+
+.click-here {
+  margin-left: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.click-here input {
+  background-color: #778899;
+  color: white;
+  height: 40px;
+  width: 185px;
+  text-align: center;
+  text-indent: 0;
+}
+
+.section-about {
+  height: 610px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url("../img/about/bg-about.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.section-about .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.part-with-text-about {
+  background-image: url("../img/about/picture-about.png");
+  background-repeat: no-repeat;
+  background-size: 650px 100%;
+  background-position: top left;
+  padding: 15px 15px 15px 650px;
+  font-family: 'Montserrat';
+  color: black;
+  font-size: 15px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.part-with-text-about p {
+  font-family: "Lato-medium";
+  font-size: 19px;
+  margin-top: 40px;
+}
+
+.p-first-about {
+  font-family: 'Montserrat-black';
+  font-size: 37px;
+  margin: 0;
+  padding-top: 70px;
+  text-align: center;
+}
+
+.p-second-about {
+  font-family: "Montserrat-regular";
+  font-size: 35px;
+  margin: 0;
+  padding-top: 15px;
+}
+
+.ul-about {
+  display: block;
+}
+
+.ul-about li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 55px;
+  margin-right: 55px;
+}
+
+.ul-about li::before {
+  margin-right: 10px;
+  content: url("../img/about/check-about.png");
+}
+
+.section-services {
+  width: 100%;
+  height: 690px;
+  text-align: center;
+}
+
+.list-section-services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 70px 115px 10px 28px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.ul-first-services, .ul-second-services {
+  font-family: 'Lato-medium';
+  font-size: 20px;
+  text-align: start;
+  margin: 0;
+  padding: 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.ul-first-services li, .ul-second-services li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 45px;
+}
+
+.services-text p:first-child {
+  font-family: "Montserrat-medium";
+  font-size: 22px;
+}
+
+.ul-first-services {
+  padding-right: 230px;
+}
+
+.ul-first-li1::before {
+  content: url("../img/services/plane-services.png");
+  width: 30px;
+  height: 30px;
+  margin-right: 105px;
+}
+
+.ul-first-li2::before {
+  content: url("../img/services/tower-services.png");
+  width: 30px;
+  height: 30px;
+  margin-right: 105px;
+}
+
+.ul-first-li3::before {
+  content: url("../img/services/cultery-services.png");
+  width: 30px;
+  height: 30px;
+  margin-right: 105px;
+}
+
+.ul-second-li1::before {
+  content: url("../img/services/train-services.png");
+  width: 30px;
+  height: 30px;
+  margin-right: 105px;
+}
+
+.ul-second-li2::before {
+  content: url("../img/services/bicycle-services.png");
+  width: 30px;
+  height: 30px;
+  margin-right: 105px;
+}
+
+.ul-second-li3::before {
+  content: url("../img/services/eye-services.png");
+  width: 30px;
+  height: 30px;
+  margin-right: 105px;
+}
+
+.section-budget-package {
+  width: 100%;
+  height: 762px;
+  display: block;
+  background-image: url("../img/bunget-package/bg-bunget-package.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.title-budget {
+  font-family: 'Montserrat-black';
+  font-size: 38px;
+  margin: 0;
+  padding-top: 85px;
+  padding-bottom: 15px;
+}
+
+.text-budget {
+  font-family: "Montserrat-regular";
+  font-size: 35px;
+  margin: 0;
+}
+
+.package {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 65px;
+}
+
+.budget-trip {
+  border: solid white;
+  height: 415px;
+  width: 385px;
+  background-color: #fff;
+  border-radius: 15px;
+  background-position: center top 30px;
+  background-repeat: no-repeat;
+}
+
+.budget-trip p {
+  padding-top: 120px;
+  padding-bottom: 25px;
+  font-family: 'Montserrat-black';
+  font-size: 25px;
+}
+
+.budget-trip ul {
+  padding-left: 100px;
+  font-family: "Montserrat-regular";
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.budget-trip ul li {
+  padding-bottom: 15px;
+}
+
+.budget-trip ul li:before {
+  padding-right: 20px;
+  content: url("../img/bunget-package/check-bunget-package.png");
+}
+
+.low {
+  background-image: url("../img/bunget-package/car-bunget.png");
+}
+
+.mid {
+  background-image: url("../img/bunget-package/train-bunget.png");
+}
+
+.hight {
+  background-image: url("../img/bunget-package/plane-bunget-package.png");
+}
+
+.button-budget {
+  border: #ffdd00 solid;
+  border-radius: 7px;
+  height: 60px;
+  background-color: #ffdd00;
+  font-size: 40px;
+  margin-left: -10px;
+  margin-right: -10px;
+  font-family: "Montserrat";
+  font-size: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: black;
+}
+
+.button-budget span {
+  margin: 0 auto;
+}
+
+.section-tour-status {
+  height: 735px;
+}
+
+.section-tour-status .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.with-clip-path {
+  border-radius: 15px;
+  margin: 85px 75px 0px 30px;
+  overflow: hidden;
+}
+
+.tour-status {
+  padding-right: 50px;
+  overflow: hidden;
+}
+
+.status-bar {
+  font-family: "Montserrat-medium";
+  font-size: 22px;
+  border: #00a4ff solid 2px;
+  height: 90px;
+  margin: 50px 0 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.status-plane {
+  background-image: url(../img/tour-status/bluenew.png);
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 60px;
+  color: white;
+}
+
+.status-plane::before {
+  content: url("../img/tour-status/plane.png");
+  margin-right: 10px;
+}
+
+.status-car {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(../img/tour-status/greynew.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 30%;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  padding-left: 100px;
+}
+
+.status-car::before {
+  content: url("../img/tour-status/cab.png");
+  margin-right: 10px;
+}
+
+.status-hotel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  left: 70%;
+  height: 100%;
+  position: absolute;
+  padding-left: 40px;
+}
+
+.status-hotel::before {
+  content: url("../img/tour-status/towel.png");
+  margin-right: 10px;
+}
+
+.p-tour-status {
+  font-family: 'Lato-medium';
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  line-height: 25px;
+}
+
+.tour-button-click {
+  font-family: "Montserrat-medium";
+  text-transform: uppercase;
+  font-size: 15px;
+  color: black;
+  display: -ms-flexbox;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #ffdd00;
+  border-radius: 6px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 35px 480px 40px 0px;
+  padding: 20px;
+}
+
+.section-best-deals {
+  height: 935px;
+  display: block;
+  background-image: url("../img/best-deals/bg-best-deals.png");
+  background-position: center;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.section-best-deals h3 {
+  padding-top: 70px;
+}
+
+.deals-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 90px 60px 0;
+}
+
+.wr-deals-left {
+  background-color: white;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 13px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 13px 1px rgba(0, 0, 0, 0.75);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 400px;
+  height: 550px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.wr-deals-left.center {
+  z-index: 1;
+}
+
+.wr-deals-left img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.wr-deals-left:hover img {
+  width: 97.3%;
+  margin-left: 1%;
+}
+
+.deals-left {
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 10px;
+}
+
+.title-deals {
+  font-family: "Montserrat-regular";
+  font-size: 22px;
+}
+
+.place-deals {
+  font-family: 'Montserrat-black';
+  font-size: 28px;
+}
+
+.text-deals {
+  font-family: 'Lato-medium';
+  font-size: 20px;
+}
+
+.pay-deals {
+  font-family: 'Montserrat-black';
+  font-size: 35px;
+}
+
+.deals-button-click {
+  font-family: "Montserrat-medium";
+  text-transform: uppercase;
+  font-size: 15px;
+  color: black;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #ffdd00;
+  border-radius: 6px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px 130px;
+  padding: 10px;
+}
+
+.wr-deals-left:hover {
+  background-image: url(../img/best-deals/frame.png);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  background-size: 100%;
+  background-color: rgba(111, 155, 45, 0);
+  border: none;
+  z-index: 2;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.wr-deals-left:hover .left-deals-button-click {
+  padding: 5px;
+}
+
+.section-blog {
+  height: 830px;
+  display: block;
+  background-image: url("../img/blog/bg-blog.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  text-align: center;
+}
+
+.section-blog h3 {
+  padding-top: 100px;
+}
+
+.section-blog h4 {
+  font-family: "Montserrat-regular";
+  font-size: 33px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.blog-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 60px auto 0;
+}
+
+.blog-left {
+  background-color: white;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 13px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 13px 1px rgba(0, 0, 0, 0.75);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 400px;
+  height: 550px;
+  height: 550px;
+  background-image: url("../img/blog/blog-left.png");
+}
+
+.blog-center {
+  background-color: white;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 13px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 13px 1px rgba(0, 0, 0, 0.75);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 400px;
+  height: 550px;
+  background-image: url("../img/blog/blog=center.png");
+}
+
+.blog-right {
+  background-color: white;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 13px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 13px 1px rgba(0, 0, 0, 0.75);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 400px;
+  height: 550px;
+  background-image: url("../img/blog/blog-right.png");
+}
+
+.blog-text {
+  padding-top: 40px;
+}
+
+.blog-about {
+  padding: 0 20px;
+}
+
+.blog-button {
+  margin: 245px 100px 0;
+  padding: 10px;
+  font-family: "Montserrat-medium";
+  text-transform: uppercase;
+  font-size: 15px;
+  color: black;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #ffdd00;
+  border-radius: 6px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-slide-show {
+  height: 860px;
+  display: block;
+  background-image: url("../img/slide-show/bg-slid-show.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.section-slide-show .container {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.boreder-show {
+  height: 500px;
+  width: 550px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 4px 3px rgba(0, 0, 0, 0.55);
+  box-shadow: 0px 0px 4px 3px rgba(0, 0, 0, 0.55);
+  background-color: #fff;
+  margin-right: 50px;
+  margin-top: 130px;
+  text-align: center;
+}
+
+.boreder-show h3 {
+  padding-top: 40px;
+}
+
+.boreder-show ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.boreder-show ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Montserrat-regular";
+  font-size: 20px;
+}
+
+.boreder-show p {
+  font-family: 'Lato-medium';
+  font-size: 20px;
+  line-height: 20px;
+  padding: 0 20px;
+}
+
+.boreder-show span {
+  font-family: 'Montserrat-black';
+  font-size: 45px;
+  padding-left: 50px;
+}
+
+.price-show {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 50px;
+}
+
+.flight::before {
+  content: url("../img/slide-show/plane.png");
+}
+
+.hotel::before {
+  content: url("../img/slide-show/towel-show.png");
+}
+
+.transport::before {
+  content: url("../img/slide-show/car-show.png");
+}
+
+.section-reviews {
+  height: 600px;
+  display: block;
+  background-image: url("../img/reviews/bg-reviews.png");
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  color: white;
+}
+
+.section-reviews h3 {
+  font-family: 'Montserrat-black';
+  font-size: 45px;
+}
+
+.section-reviews h4 {
+  font-family: "Montserrat-regular";
+  font-size: 35px;
+}
+
+.rating {
+  margin: 10px 200px;
+}
+
+.review-about {
+  font-family: 'Lato-medium';
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.first-about-review {
+  background-image: url("../img/reviews/reviews.png");
+  background-repeat: no-repeat;
+  margin: 0px 250px;
+}
+
+.first-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.img-first-review {
+  margin: 10px auto;
+}
+
+.name-review {
+  font-family: 'Montserrat-black';
+  font-size: 25px;
+  padding: 10px 90px;
+}
+
+.who-is {
+  font-family: "Montserrat-regular";
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+
+.section-footer {
+  height: 1070px;
+  width: 100%;
+  background-image: url("../img/footer/bg-footer.png");
+  background-position: top center;
+  text-align: center;
+  color: #fff;
+  background-repeat: no-repeat;
+}
+
+.section-footer .title-budget {
+  padding-top: 123px;
+}
+
+.button-click-footer {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 100px auto 40px;
+}
+
+.footer-contact-info {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  color: black;
+  padding: 0;
+  text-align: start;
+}
+
+.footer-contact-tel {
+  font-family: 'Lato-medium';
+  font-size: 20px;
+  color: black;
+  background-image: url("../img/footer/Icon-mail-f.png");
+  background-repeat: no-repeat;
+  padding-left: 60px;
+}
+
+.footer-contact-mail {
+  font-family: 'Lato-medium';
+  font-size: 20px;
+  color: black;
+  background-image: url("../img/footer/Icon-tel-f.png");
+  background-repeat: no-repeat;
+  padding-left: 60px;
+}
+
+.footer-contact-address {
+  font-family: 'Lato-medium';
+  font-size: 20px;
+  color: black;
+  background-image: url("../img/footer/Icon-address-f.png");
+  background-repeat: no-repeat;
+  padding-left: 60px;
+}
+
+.footer-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+}
+
+.footer-icons li {
+  width: 60px;
+  height: 60px;
+  border: #ffdd00 2px solid;
+  border-radius: 50%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 100px 20px;
+}
+
+.footer-down {
+  color: black;
+  font-family: "Lato-medium";
+  font-size: 17px;
+  background-color: #ffdd00;
+  padding: 40px 0 70px 0;
+  line-height: 40px;
+}
+
+@media all and (max-width: 1000px) {
+  header .contact-info li:first-child {
+    margin-right: 10px;
+  }
+  header .text-about-exploore {
+    font-size: 25px;
+  }
+  header .navigation ul {
+    font-size: 0.82rem;
+  }
+  .promo .container {
+    padding: 200px 150px 10px;
+  }
+  .promo .first-promo {
+    font-size: 60px;
+  }
+  .find-hotel .form-find-hotel {
+    padding-top: 27px;
+  }
+  .find-hotel .form-shell {
+    display: block;
+    margin-top: 30px;
+  }
+  .find-hotel .second-column {
+    margin-top: 20px;
+  }
+  .part-with-text-about {
+    background-size: 100%;
+    opacity: 0.5;
+    padding: 15px 35px;
+    color: white;
+  }
+  .list-section-services {
+    margin: 70px 15px 10px 28px;
+  }
+  .ul-first-services {
+    padding-right: 1px;
+  }
+  .list-section-services ul li::before {
+    margin-right: 55px;
+  }
+  .package .budget-trip {
+    width: 280px;
+  }
+  .budget-trip ul {
+    padding-left: 50px;
+  }
+  .section-tour-status .with-clip-path {
+    margin: 10px;
+  }
+  .section-tour-status .title-budget {
+    padding-top: 35px;
+  }
+  .section-tour-status .status-plane {
+    padding-left: 0;
+    background-size: contain;
+  }
+  .section-tour-status .status-car {
+    padding-left: 60px;
+    background-size: contain;
+  }
+  .status-hotel {
+    padding-left: 30px;
+    background-size: contain;
+  }
+  .tour-button-click {
+    margin: 10px 150px;
+  }
+  .section-tour-status .p-tour-status {
+    font-size: 0.85rem;
+  }
+  .section-best-deals .deals-button-click {
+    font-size: 10px;
+    margin: 10px 100px 0;
+  }
+  .place-deals, .pay-deals {
+    font-size: 20px;
+  }
+  .title-deals {
+    font-size: 18px;
+  }
+  .text-deals {
+    font-size: 15px;
+  }
+  .wr-deals-left {
+    width: 400px;
+    height: 450px;
+  }
+  .blog-block {
+    margin: 60px;
+  }
+  .blog-button {
+    margin: 175px 60px 0;
+  }
+  .blog-left {
+    height: 420px;
+  }
+  .blog-center {
+    height: 420px;
+  }
+  .blog-right {
+    height: 420px;
+  }
+  .section-blog .place-deals {
+    font-size: 20px;
+  }
+  .section-blog .text-deals {
+    font-size: 15px;
+  }
+  .footer-contact-tel {
+    font-size: 15px;
+  }
+  .footer-contact-mail {
+    font-size: 15px;
+  }
+  .footer-contact-address {
+    font-size: 15px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  header .contact-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+  }
+  header .contact-info li:first-child {
+    margin: 0;
+    padding-bottom: 3px;
+  }
+  header .text-about-exploore {
+    font-size: 25px;
+  }
+  header .nav-for-site {
+    font-size: 0.82rem;
+  }
+  header .nav-for-site li a {
+    padding: 35px 15px 25px 5px;
+  }
+  .promo {
+    height: 630px;
+  }
+  .promo .container {
+    padding: 200px 150px 10px;
+  }
+  .promo .first-promo {
+    font-size: 40px;
+  }
+  .promo .signature {
+    font-size: 20px;
+    letter-spacing: normal;
+  }
+  .find-hotel .form-find-hotel {
+    padding-top: 27px;
+  }
+  .find-hotel .form-shell {
+    display: block;
+    margin-top: 30px;
+  }
+  .find-hotel .second-column {
+    margin-top: 20px;
+  }
+  .section-services {
+    height: 400px;
+  }
+  .p-first-about {
+    font-size: 27px;
+    padding-top: 20px;
+  }
+  .p-second-about {
+    font-size: 20px;
+  }
+  .list-section-services {
+    margin: 20px 15px;
+  }
+  .services-text p:first-child {
+    font-size: 15px;
+  }
+  .ul-first-services, .ul-second-services {
+    font-size: 10px;
+  }
+  .section-about {
+    height: 410px;
+  }
+  .section-about .ul-about li {
+    margin-top: 5px;
+  }
+  .section-about .part-with-text-about {
+    background-size: 100%;
+    padding: 15px 35px;
+    color: white;
+  }
+  .list-section-services .ul-first-services {
+    margin-right: 30px;
+  }
+  .list-section-services ul li::before {
+    margin-right: 55px;
+  }
+  .section-budget-package {
+    height: 500px;
+  }
+  .title-budget {
+    font-size: 25px;
+  }
+  .text-budget {
+    font-size: 20px;
+  }
+  .package {
+    padding-top: 10px;
+  }
+  .low {
+    background-size: 20%;
+  }
+  .mid {
+    background-size: 17%;
+  }
+  .hight {
+    background-size: 20%;
+  }
+  .package .budget-trip {
+    width: 200px;
+    height: 300px;
+  }
+  .budget-trip p {
+    padding-top: 70px;
+    padding-bottom: 5px;
+    font-size: 15px;
+  }
+  .button-budget {
+    height: 40px;
+    font-size: 20px;
+  }
+  .package .budget-trip ul {
+    padding-left: 10px;
+  }
+  .budget-trip ul li {
+    padding-bottom: 15px;
+    font-size: 10px;
+  }
+  .section-tour-status {
+    height: 500px;
+  }
+  .section-tour-status .with-clip-path {
+    margin: 20px 10px;
+    width: 250px;
+  }
+  .status-bar {
+    margin: 20px 0;
+    height: 70px;
+  }
+  .section-tour-status .title-budget {
+    padding-top: 35px;
+  }
+  .section-tour-status .status-plane {
+    padding-left: 0;
+    background-size: contain;
+  }
+  .status-plane::before {
+    margin-right: 0;
+  }
+  .section-tour-status .status-car {
+    padding-left: 20px;
+    background-size: contain;
+  }
+  .status-car::before {
+    margin-right: 1px;
+  }
+  .section-tour-status .status-hotel {
+    padding: 0;
+    background-size: contain;
+  }
+  .section-tour-status .tour-button-click {
+    margin: 5px 150px;
+  }
+  .tour-button-click {
+    font-size: 10px;
+    padding: 10px;
+  }
+  .section-tour-status .p-tour-status {
+    font-size: 0.85rem;
+    line-height: normal;
+  }
+  .section-best-deals {
+    height: 635px;
+  }
+  .wr-deals-left {
+    width: 200px;
+    height: 286px;
+  }
+  .section-best-deals .title-deals {
+    font-size: 15px;
+  }
+  .section-best-deals .deals-button-click {
+    font-size: 7px;
+    margin: 5px 70px;
+  }
+  .place-deals, .pay-deals {
+    font-size: 15px;
+  }
+  .section-blog {
+    height: 450px;
+  }
+  .section-blog h3 {
+    padding-top: 10px;
+  }
+  .section-blog h4 {
+    font-size: 15px;
+  }
+  .blog-button {
+    margin: 125px 30px 0;
+    padding: 7px;
+    font-size: 10px;
+  }
+  .section-blog .blog-block {
+    margin: 20px;
+  }
+  .blog-left, .blog-center, .blog-right {
+    width: 210px;
+    height: 300px;
+  }
+  .section-blog .blog-a {
+    margin: 125px 10px 0;
+  }
+  .blog-text {
+    padding-top: 20px;
+  }
+  .section-blog .place-deals {
+    font-size: 15px;
+  }
+  .section-blog .text-deals {
+    font-size: 10px;
+  }
+  .section-slide-show {
+    height: 460px;
+  }
+  .boreder-show {
+    height: 300px;
+    width: 350px;
+    margin-right: 50px;
+    margin-top: 18px;
+  }
+  .boreder-show h3 {
+    padding-top: 10px;
+  }
+  .boreder-show p {
+    font-size: 10px;
+  }
+  .price-show {
+    margin-top: 0;
+  }
+  .boreder-show span {
+    font-size: 15px;
+    padding: 20px 5px 20px 50px;
+  }
+  .section-slide-show .button-click {
+    padding: 21px 40px;
+    width: 0;
+    height: 0;
+    margin: 0;
+  }
+  .section-reviews {
+    height: 297px;
+  }
+  .section-reviews h3 {
+    font-size: 25px;
+  }
+  .section-reviews h4 {
+    font-size: 15px;
+  }
+  .rating {
+    margin: 10px 100px;
+  }
+  .section-reviews .title-budget {
+    margin: 0;
+    padding-top: 15px;
+  }
+  .review-about {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .who-is {
+    padding-bottom: 18px;
+  }
+  .first-about-review {
+    margin: 0px 130px;
+  }
+  .name-review {
+    font-size: 15px;
+  }
+  .section-footer {
+    height: 500px;
+    background-size: 100%;
+  }
+  .section-footer .title-budget {
+    padding-top: 10px;
+  }
+  .place-map {
+    height: 70px;
+  }
+  .section-footer .footer-contact-tel {
+    font-size: 15px;
+  }
+  .section-footer .footer-contact-mail {
+    font-size: 15px;
+  }
+  .section-footer .footer-contact-address {
+    font-size: 15px;
+  }
+  .footer-icons li {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+  }
+  .footer-down {
+    font-size: 17px;
+    padding: 10px 0;
+    line-height: 20px;
+  }
+}
+
+@media all and (max-width: 420px) {
+  .over-line {
+    font-size: 10px;
+    letter-spacing: normal;
+  }
+  .contact-tel {
+    background-size: 10px;
+    padding-left: 11px;
+  }
+  .contact-mail {
+    padding-left: 13px;
+    background-size: 10px;
+  }
+  .media-icon {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .social-media-icon li {
+    padding-right: 10px;
+  }
+  .login {
+    padding-left: 10px;
+    padding-right: 12px;
+    background-size: 10px;
+  }
+  .singup {
+    background-size: 10px;
+    padding-left: 12px;
+  }
+  .text-under-title {
+    font-size: 18px;
+  }
+  .tagline {
+    font-size: 5px;
+  }
+  .navigation {
+    position: relative;
+  }
+  .burger-trigger {
+    display: block;
+    position: absolute;
+    top: -10px;
+    left: -6px;
+    height: 30px;
+    width: 30px;
+    border: 3px solid #c5c5ee;
+  }
+  .burger {
+    height: 2px;
+    width: 25px;
+    background-color: #c5c5ee;
+    position: relative;
+    border-radius: 8px;
+  }
+  .burger::before {
+    content: " ";
+    position: absolute;
+    display: block;
+    height: 2px;
+    width: 25px;
+    background-color: #c5c5ee;
+    border-radius: 8px;
+    left: 0;
+    top: 7px;
+  }
+  .burger::after {
+    content: " ";
+    position: absolute;
+    display: block;
+    height: 2px;
+    width: 25px;
+    background-color: #c5c5ee;
+    border-radius: 8px;
+    left: 0;
+    top: 14px;
+  }
+  header .navigation ul.nav-for-site {
+    position: absolute;
+    font-size: 0.42rem;
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    letter-spacing: normal;
+    margin-top: -12px;
+    margin-left: -77px;
+  }
+  header .navigation ul.nav-for-site-opened {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: #a6a6bd;
+  }
+  header .nav-for-site li a {
+    padding: 10px;
+    font-size: 1.5em;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .promo {
+    height: 430px;
+  }
+  .promo .container {
+    padding: 170px 15px 10px;
+  }
+  .promo .first-promo {
+    font-size: 20px;
+  }
+  .promo .signature {
+    font-size: 11px;
+  }
+  .promo-text {
+    font-size: 10px;
+    padding: 20px;
+  }
+  .button-click {
+    font-size: 10px;
+    letter-spacing: normal;
+    padding: 20px 50px;
+    height: 0;
+    width: 0;
+  }
+  legend {
+    font-size: 15px;
+  }
+  .form-shell {
+    font-size: 10px;
+  }
+  .find-hotel {
+    width: 100%;
+    height: 230px;
+  }
+  .find-hotel input {
+    margin-top: 10px;
+    border-radius: 5px;
+    text-indent: 5px;
+    font-size: 10px;
+    height: 25px;
+    width: 75px;
+  }
+  .section-about .part-with-text-about {
+    padding: 10px;
+  }
+  .p-first-about {
+    font-size: 15px;
+    padding-top: 20px;
+  }
+  .p-second-about {
+    font-size: 10px;
+    padding-top: 5px;
+  }
+  .part-with-text-about p {
+    font-family: "Lato-medium";
+    font-size: 10px;
+    margin-top: 10px;
+  }
+  .ul-about {
+    font-size: 10px;
+  }
+  .section-about {
+    height: 310px;
+  }
+  .ul-about li::before {
+    margin-right: 10px;
+    content: "►";
+  }
+  .list-section-services {
+    margin: 10px;
+  }
+  .list-section-services .ul-first-services {
+    margin-right: 0px;
+  }
+  .ul-first-services li, .ul-second-services li {
+    padding-bottom: 10px;
+  }
+  .section-budget-package {
+    height: 300px;
+  }
+  .title-budget {
+    font-size: 15px;
+    padding: 10px 0;
+  }
+  .text-budget {
+    font-size: 10px;
+  }
+  .package .budget-trip {
+    width: 120px;
+    height: 200px;
+  }
+  .budget-trip p {
+    padding-top: 40px;
+    padding-bottom: 5px;
+    font-size: 10px;
+  }
+  .button-budget {
+    height: 20px;
+    font-size: 10px;
+  }
+  .budget-trip ul li {
+    padding-bottom: 5px;
+  }
+  .budget-trip ul li:before {
+    margin-right: 5px;
+    content: "►";
+    padding-right: 0;
+  }
+  .low, .mid, .hight {
+    background-size: 15%;
+  }
+  .budget-trip {
+    background-position: center top 10px;
+  }
+  .tour-status-img {
+    position: relative;
+  }
+  .wr-deals-left:hover {
+    -webkit-box-shadow: 2px 2px 13px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 2px 13px 1px rgba(0, 0, 0, 0.75);
+    background: #fff;
+  }
+  .tour-status {
+    position: absolute;
+    text-align: center;
+  }
+  .section-tour-status .with-clip-path {
+    margin: 0;
+    width: 100%;
+    opacity: 0.3;
+    border-radius: 0;
+  }
+  .section-tour-status {
+    overflow: hidden;
+    height: 350px;
+  }
+  .status-bar {
+    margin: 20px 0px 20px 0px;
+    height: 70px;
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+    font-size: 17px;
+  }
+  .status-bar .status-plane {
+    padding-left: 15px;
+  }
+  .status-bar .status-car {
+    padding-left: 40px;
+  }
+  .status-bar .status-hotel {
+    padding-left: 15px;
+  }
+  .tour-status {
+    padding-right: 0px;
+  }
+  .section-best-deals {
+    height: 310px;
+  }
+  .section-best-deals h3 {
+    padding-top: 20px;
+  }
+  .deals-block {
+    margin-top: 30px;
+  }
+  .wr-deals-left {
+    width: 120px;
+    height: 200px;
+  }
+  .section-best-deals .title-deals, .pay-deals, .text-deals {
+    font-size: 10px;
+  }
+  .section-best-deals .deals-button-click {
+    margin: 5px 10px;
+  }
+  .section-blog {
+    height: 300px;
+  }
+  .section-blog .blog-block {
+    margin: 5px;
+  }
+  .blog-left, .blog-center, .blog-right {
+    width: 120px;
+    height: 220px;
+  }
+  .blog-button {
+    margin: 65px 20px 0;
+  }
+  .section-blog .place-deals {
+    font-size: 10px;
+    padding: 5px 0 0;
+  }
+  .section-slide-show {
+    height: 220px;
+  }
+  .boreder-show {
+    height: 180px;
+    width: 220px;
+    margin-right: 5px;
+    margin-top: 18px;
+  }
+  .boreder-show ul {
+    margin: 0;
+  }
+  .boreder-show ul li {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  .boreder-show p {
+    font-family: 'Lato-medium';
+    font-size: 5px;
+    line-height: normal;
+    padding: 0;
+    margin: 0;
+  }
+  .boreder-show span {
+    font-size: 10px;
+    padding: 10px 0px 5px 30px;
+  }
+  .section-slide-show .button-click {
+    padding: 10px 40px;
+    margin: 10px;
+    font-size: 8px;
+  }
+  .section-reviews .title-budget, .section-reviews h4 {
+    padding-top: 10px;
+  }
+  .rating {
+    margin: 10px 30px;
+  }
+  .review-about, .name-review, .who-is {
+    font-size: 10px;
+    line-height: normal;
+  }
+  .who-is {
+    padding-top: 25px;
+  }
+  .section-footer {
+    height: 200px;
+  }
+  .button-click-footer {
+    margin: 13px auto 7px;
+  }
+  .section-footer .footer-contact-tel {
+    font-size: 5px;
+    padding-left: 20px;
+    background-size: 20%;
+    margin-left: 5px;
+  }
+  .section-footer .footer-contact-mail {
+    font-size: 5px;
+    padding-left: 20px;
+    background-size: 20%;
+    margin-left: 5px;
+  }
+  .section-footer .footer-contact-address {
+    font-size: 5px;
+    padding-left: 20px;
+    background-size: 20%;
+    margin-left: 5px;
+  }
+  .section-footer .footer-icons {
+    padding: 0;
+  }
+  .footer-icons li {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+  }
+  .footer-img-scale {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  .footer-down {
+    font-size: 5px;
+    padding: 10px 0;
+    line-height: normal;
+  }
+}
+
+@media all and (max-width: 375px) {
+  .package .budget-trip {
+    width: 100px;
+    height: 200px;
+  }
+  .package .budget-trip ul {
+    padding-left: 10px;
+    text-align: start;
+  }
+  .section-about {
+    height: 290px;
+  }
+  .name-review {
+    padding: 10px 80px;
+  }
+  .first-about-review {
+    background-size: 90%;
+  }
+}
+
+@media all and (max-width: 320px) {
+  header {
+    height: 95px;
+  }
+  .contact-info {
+    padding-left: 5px;
+  }
+  .social-media-icon li a img {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  .social-media-icon li {
+    padding-right: 2px;
+  }
+  .login-and-signup {
+    margin: 0;
+    font-size: 5px;
+  }
+  .login {
+    background-size: 7px;
+  }
+  .singup {
+    background-size: 7px;
+  }
+  .promo {
+    height: 240px;
+  }
+  .promo .container {
+    padding: 120px 15px 10px;
+  }
+  .signature {
+    margin-top: 3px;
+  }
+  .promo-text {
+    font-size: 10px;
+    padding: 5px;
+  }
+  .button-click {
+    font-size: 7px;
+    padding: 10px 40px;
+  }
+  .find-hotel .form-shell {
+    margin-top: 10px;
+  }
+  .section-about {
+    height: 240px;
+  }
+  .section-services {
+    height: 350px;
+  }
+  .list-section-services ul li::before {
+    margin-right: 25px;
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  .services-text {
+    margin-left: -4px;
+  }
+  .services-text p:first-child {
+    font-size: 10px;
+  }
+  .package .budget-trip {
+    width: 80px;
+    height: 190px;
+  }
+  .budget-trip p {
+    padding-top: 25px;
+    padding-bottom: 5px;
+    font-size: 8px;
+  }
+  .package .budget-trip ul {
+    padding-left: 1px;
+  }
+  .budget-trip ul li {
+    font-size: 8px;
+  }
+  .tour-status {
+    width: 100%;
+  }
+  .section-tour-status .p-tour-status {
+    font-size: 0.5rem;
+    line-height: normal;
+    padding: 0 15px;
+  }
+  .section-tour-status .tour-button-click {
+    margin: 5px 100px;
+  }
+  .status-bar div::before {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+    margin-right: 0;
+  }
+  .status-bar {
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+  }
+  .status-bar .status-plane {
+    padding-left: 27px;
+  }
+  .status-car {
+    left: 20%;
+  }
+  .status-bar div::before {
+    display: none;
+  }
+  .status-bar .status-car {
+    padding-left: 90px;
+  }
+  .deals-block {
+    margin: 5px;
+  }
+  .wr-deals-left:hover {
+    -webkit-box-shadow: 2px 2px 13px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 2px 13px 1px rgba(0, 0, 0, 0.75);
+    background: #fff;
+  }
+  .blog-button {
+    margin: 45px 20px 0;
+  }
+  .first-about-review {
+    margin: 0px 50px;
+    background-size: 20%;
+  }
+  .review-about, .name-review, .who-is {
+    font-size: 10px;
+    line-height: normal;
+    padding: 0;
+  }
+  .who-is {
+    padding-top: 5px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

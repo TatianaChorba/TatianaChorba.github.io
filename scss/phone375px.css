@@ -1,0 +1,20 @@
+@media all and (max-width: 375px) {
+  .package .budget-trip {
+    width: 100px;
+    height: 200px;
+  }
+  .package .budget-trip ul {
+    padding-left: 10px;
+    text-align: start;
+  }
+  .section-about {
+    height: 290px;
+  }
+  .name-review {
+    padding: 10px 80px;
+  }
+  .first-about-review {
+    background-size: 90%;
+  }
+}
+/*# sourceMappingURL=phone375px.css.map */

@@ -1,0 +1,120 @@
+@media all and (max-width: 1000px) {
+  header .contact-info li:first-child {
+    margin-right: 10px;
+  }
+  header .text-about-exploore {
+    font-size: 25px;
+  }
+  header .navigation ul {
+    font-size: 0.82rem;
+  }
+  .promo .container {
+    padding: 200px 150px 10px;
+  }
+  .promo .first-promo {
+    font-size: 60px;
+  }
+  .find-hotel .form-find-hotel {
+    padding-top: 27px;
+  }
+  .find-hotel .form-shell {
+    display: block;
+    margin-top: 30px;
+  }
+  .find-hotel .second-column {
+    margin-top: 20px;
+  }
+  .part-with-text-about {
+    background-size: 100%;
+    opacity: 0.5;
+    padding: 15px 35px;
+    color: white;
+  }
+  .list-section-services {
+    margin: 70px 15px 10px 28px;
+  }
+  .ul-first-services {
+    padding-right: 1px;
+  }
+  .list-section-services ul li::before {
+    margin-right: 55px;
+  }
+  .package .budget-trip {
+    width: 280px;
+  }
+  .budget-trip ul {
+    padding-left: 50px;
+  }
+  .section-tour-status .with-clip-path {
+    margin: 10px;
+  }
+  .section-tour-status .title-budget {
+    padding-top: 35px;
+  }
+  .section-tour-status .status-plane {
+    padding-left: 0;
+    background-size: contain;
+  }
+  .section-tour-status .status-car {
+    padding-left: 60px;
+    background-size: contain;
+  }
+  .status-hotel {
+    padding-left: 30px;
+    background-size: contain;
+  }
+  .tour-button-click {
+    margin: 10px 150px;
+  }
+  .section-tour-status .p-tour-status {
+    font-size: 0.85rem;
+  }
+  .section-best-deals .deals-button-click {
+    font-size: 10px;
+    margin: 10px 100px 0;
+  }
+  .place-deals, .pay-deals {
+    font-size: 20px;
+  }
+  .title-deals {
+    font-size: 18px;
+  }
+  .text-deals {
+    font-size: 15px;
+  }
+  .wr-deals-left {
+    width: 400px;
+    height: 450px;
+  }
+  .blog-block {
+    margin: 60px;
+  }
+  .blog-button {
+    margin: 175px 60px 0;
+  }
+  .blog-left {
+    height: 420px;
+  }
+  .blog-center {
+    height: 420px;
+  }
+  .blog-right {
+    height: 420px;
+  }
+  .section-blog .place-deals {
+    font-size: 20px;
+  }
+  .section-blog .text-deals {
+    font-size: 15px;
+  }
+  .footer-contact-tel {
+    font-size: 15px;
+  }
+  .footer-contact-mail {
+    font-size: 15px;
+  }
+  .footer-contact-address {
+    font-size: 15px;
+  }
+}
+/*# sourceMappingURL=mobile970px.css.map */
